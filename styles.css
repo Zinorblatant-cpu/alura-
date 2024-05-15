@@ -1,0 +1,242 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-principal: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.apresentacao-do-link{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.apresentacao__primeiro-botao{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    width: 512px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.apresentacao__segundo-botao{
+    background-color: transparent;
+    color: var(--branco-principal);
+    border: 1px solid var(--branco-principal);
+    width: 512px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container__texto_grande{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: width 588px ;
+    
+}
+
+.container__texto_pequeno{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-principal);
+}
+
+.container_imagen{
+    margin: 1em 0 2em 0;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagen{
+    width: 80%;
+}
+
+.descricao__titulo{
+    color: var(--branco-principal);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.descricao_paragrafo{
+    color: var(--cinza-principal);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-family: 400;
+}
+
+.terceiro{
+    align-items: center;
+    margin: 0 6em;
+}
+
+.terceiro__paragrafo{
+    color: var(--cinza-principal);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+
+.terceiro__botao{
+    text-decoration: none;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    width: 162px;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.terceiro_imagem{
+    margin: 0 4em;
+}
+
+.quarta{
+    align-self: center;
+    margin: 0 4em;
+}
+
+.quarta_imagem{
+    align-self: center;
+}
+
+.quarta_descrição{
+    align-self: center;
+}
+
+.quarta_titulo{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.quarta_paragrafo{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--cinza-principal);
+}
+
+.ultimo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.ultimo_titulo{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-top:  2em;
+
+}
+
+.ultimo_dispositivos{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    margin: 5em 0 ;   
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape__logo{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__lista{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    margin: 2em 1em 1em ;   
+}
+
+.lista__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.rodape__texto{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: var(--cinza-principal);
+    font-size: 14px;
+}
+
+.texto__primeiro{
+    margin: 2em;
+}
+
+.texto__segundo{
+    margin: 0 6em;
+}
